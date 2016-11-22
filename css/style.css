@@ -1,9 +1,3 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
@@ -67,7 +61,7 @@ span.m_1{
     display: none;
 	background:#df1f26;
 	width: 100%;
-	color: #FFF;
+	color: #000;
 	font-size: 1.5em;
 }
 .nav {
@@ -310,7 +304,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   top: 50%;
   left: 0;
-  opacity: 0.7;
+  opacity: 1;
   z-index: 3;
   text-indent: -9999px;
   overflow: hidden;
@@ -489,6 +483,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 	cursor: pointer;
 	position: absolute;
 	outline: none;
+}
+.menu-box {
+	float: right;
 }
 /*--index_content--*/
 .main{
@@ -669,15 +666,15 @@ ul.user li.user_desc p a{
 	left:0;
 	width:50%;
 	height:100%;
-	background:rgba(248, 69, 69, 0.59);
+	background:rgba(248, 69, 152, 0.59);
 }
 .b-link-stroke .b-bottom-line{
 	position:absolute;
 	bottom:-100%;
 	right:0;
-	width:50%;
+	width:50.1%;
 	height:100%;
-	background:rgba(248, 69, 69, 0.59);
+	background:rgba(248, 69, 152, 0.59);
 }
 .b-link-stroke .b-top-line, .b-link-stroke .b-bottom-line{
 	transition:all 0.5s;
